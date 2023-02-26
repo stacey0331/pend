@@ -9,9 +9,9 @@ function Home() {
         <table id="layout_table">
             <tr>
                 <td id="filters">
-                    <table style={{ width: 300, height: '100vh', position: 'absolute', top: 55, backgroundColor: 'white'}}>
+                    <table style={{ width: 300, height: '50vh', position: 'absolute', top: 55, backgroundColor: 'white'}}>
                         <tr id="filter_title_row">
-                            <td>
+                            <td style={{padding: 10}}>
                                 Filters
                             </td>
                             <td style={{ width: 80}}>
@@ -19,24 +19,30 @@ function Home() {
                             </td>
                         </tr>
                         <tr style={{ height: 100}}>
-                            <div>Lend Amount</div>
-                            <FloatingLabel label="Minimum" style={{width: 100, fontSize: 15, display: 'inline-block'}}>
-                                <Form.Control placeholder="E.g. $300" />
-                            </FloatingLabel>
-                            --
-                            <FloatingLabel label="Maximum" style={{width: 100, fontSize: 15, display: 'inline-block'}}>
-                                <Form.Control placeholder="E.g. $1000" />
-                            </FloatingLabel>
+                            <td style={{padding: 10}}>
+                                <div>Lend Amount</div>
+                                <FloatingLabel label="Minimum" style={{width: 90, fontSize: 15, display: 'inline-block'}}>
+                                    <Form.Control placeholder="E.g. $300" />
+                                </FloatingLabel>
+                                --
+                                <FloatingLabel label="Maximum" style={{width: 90, fontSize: 15, display: 'inline-block'}}>
+                                    <Form.Control placeholder="E.g. $1000" />
+                                </FloatingLabel>
+                            </td>
                         </tr>
                         <tr style={{ height: 100}}>
-                            Earn Minimum
-                            <FloatingLabel label="Maximum" style={{width: 100, fontSize: 15}}>
-                                <Form.Control placeholder="E.g. $1000" />
-                            </FloatingLabel>
+                            <td style={{padding: 10}}> 
+                                Earn Minimum
+                                <FloatingLabel label="Maximum" style={{width: 100, fontSize: 15}}>
+                                    <Form.Control placeholder="E.g. $1000" />
+                                </FloatingLabel>
+                            </td>
                         </tr>
-                        <tr>
-                            Pay Back Within
-                            <input type="date"></input>
+                        <tr style={{ height: 100}}>
+                            <td style={{padding: 10}}>
+                                Pay Back Within
+                                <input type="date"></input>
+                            </td>
                         </tr>
                     </table>
                 </td>

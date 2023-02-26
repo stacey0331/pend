@@ -1,10 +1,10 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-
 function AccountPage() {
     return (
         <>
+            <div className="Page-title ">Your Account Info</div>
             Total: $31,000 &nbsp; Earnings: $6000
             <table>
                 <tr>
@@ -23,7 +23,7 @@ function AccountPage() {
                         </Card.Body>
                         </Card>
                     </td>
-                    <td style={{ padding: 50}}>
+                    <td style={{padding: 50}}>
                         Borrow Info <br/>
                         Borrowed Total: $25,000 &nbsp; Owed Total: $5,000
                         <Card style={{ width: '20rem' }}>

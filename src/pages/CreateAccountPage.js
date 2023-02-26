@@ -8,11 +8,11 @@ function CreateAccount() {
             <Form>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>First Name</Form.Label>
-                    <Form.Control type="email" placeholder="" />
+                    <Form.Control placeholder="" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Last Name</Form.Label>
-                    <Form.Control type="email" placeholder="" />
+                    <Form.Control placeholder="" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Email address</Form.Label>
